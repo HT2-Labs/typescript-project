@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "A package containing what HT2 Labs needs for TypeScript projects.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HT2-Labs/typescript-project"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "HT2-Labs",
+  "license": "GPL-3.0",
   "dependencies": {
     "tslint": "5.8.0",
     "tslint-consistent-codestyle": "1.11.0",
