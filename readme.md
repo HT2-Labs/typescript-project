@@ -7,6 +7,8 @@
 1. Create a "tslint.json" file in the root of your repository using the [example TSLint config](#tslint-config-example).
 1. Add a `lint` script to your `package.json` file using `node ./node_modules/tslint/bin/tslint`.
 1. Add a `build` script to your `package.json` file using `node ./node_modules/typescript/bin/tsc`.
+1. Add `/dist` to your `.gitignore` file.
+1. Create a `src` folder in the root of your repository for all TypeScript source code.
 
 ### TS Config Example
 ```json
