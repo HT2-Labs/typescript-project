@@ -1,0 +1,17 @@
+{
+  "name": "@ht2-labs/typescript-project",
+  "version": "1.0.0",
+  "description": "A package containing what HT2 Labs needs for TypeScript projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslint": "5.8.0",
+    "tslint-consistent-codestyle": "1.11.0",
+    "tslint-immutable": "4.4.0",
+    "typescript": "2.6.2"
+  }
+}
