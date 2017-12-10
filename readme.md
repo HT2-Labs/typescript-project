@@ -3,8 +3,8 @@
 
 ### Usage
 1. Install with `npm i -D @ht2-labs/typescript-project`.
-1. Create a ["tsconfig.json" file](#ts-config-example) in the root of your repository.
-1. Create a ["tslint.json" file](#tslint-config-example) in the root of your repository.
+1. Create a "tsconfig.json" file in the root of your repository using the [example TS config](#ts-config-example).
+1. Create a "tslint.json" file in the root of your repository using the [example TSLint config](#tslint-config-example).
 1. Add a `lint` script to your `package.json` file using `node ./node_modules/tslint/bin/tslint`.
 1. Add a `build` script to your `package.json` file using `node ./node_modules/typescript/bin/tsc`.
 
