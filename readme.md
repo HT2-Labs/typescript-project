@@ -11,7 +11,7 @@
 ### TS Config Example
 ```json
 {
-  "extends": "./node_modules/@ht2labs/typescript-project/configs/tsconfig.json",
+  "extends": "./node_modules/@ht2-labs/typescript-project/configs/tsconfig.json",
   "compilerOptions": {
     "target": "es5",
     "rootDir": "src",
@@ -31,7 +31,7 @@
 ```json
 {
   "extends": [
-    "./node_modules/@ht2labs/typescript-project/configs/tslint.json"
+    "./node_modules/@ht2-labs/typescript-project/configs/tslint.json"
   ]
 }
 ```
