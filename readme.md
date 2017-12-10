@@ -13,14 +13,9 @@
 {
   "extends": "./node_modules/@ht2-labs/typescript-project/configs/tsconfig.json",
   "compilerOptions": {
-    "target": "es5",
     "rootDir": "src",
     "outDir": "dist",
-    "lib": ["es2015", "es2016", "dom"],
     "typeRoots": ["./@types", "./node_modules/@types"],
-    "sourceMap": true,
-    "declaration": true,
-    "noUnusedLocals": false
   },
   "includes": ["src/**/*"],
   "exclude": ["node_modules", "dist/**/*"]
