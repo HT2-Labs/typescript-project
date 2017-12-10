@@ -6,9 +6,6 @@
     "type": "git",
     "url": "https://github.com/HT2-Labs/typescript-project"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "HT2-Labs",
   "license": "GPL-3.0",
   "dependencies": {
