@@ -1,3 +1,5 @@
 {
-  "extends": ["@ht2-labs"]
+  "extends": [
+    "@ht2-labs:base"
+  ]
 }
