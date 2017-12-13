@@ -6,8 +6,11 @@
     "type": "git",
     "url": "https://github.com/HT2-Labs/typescript-project"
   },
-  "author": "HT2-Labs",
+  "author": "ht2-labs",
   "license": "GPL-3.0",
+  "scripts": {
+    "semantic-release": "ht2-release-public-circleci-lib"
+  },
   "dependencies": {
     "tslint": "5.8.0",
     "tslint-consistent-codestyle": "1.11.0",
