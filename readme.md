@@ -2,7 +2,7 @@
 > Package containing scripts and configs that HT2 Labs need for TypeScript projects.
 
 ### Usage
-1. Install with `npm i -D @ht2-labs/typescript-project`.
+1. Install with `npm i -D -E @ht2-labs/typescript-project@latest`.
 1. Create a "tsconfig.json" file in the root of your repository using the [example TS config](#ts-config-example).
 1. Create a "tslint.json" file in the root of your repository using the [example TSLint config](#tslint-config-example).
 1. Add a `lint` script to your `package.json` file using `tslint`.
