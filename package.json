@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "tslint": "5.10.0",
-    "tslint-consistent-codestyle": "1.11.1",
+    "tslint-consistent-codestyle": "1.13.0",
     "tslint-immutable": "4.5.1",
     "typescript": "2.8.1"
   },
