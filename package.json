@@ -14,7 +14,7 @@
   "dependencies": {
     "tslint": "5.10.0",
     "tslint-consistent-codestyle": "1.13.1",
-    "tslint-immutable": "4.5.4",
+    "tslint-immutable": "4.6.0",
     "typescript": "2.9.1"
   },
   "devDependencies": {
