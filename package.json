@@ -15,7 +15,7 @@
     "tslint": "5.10.0",
     "tslint-consistent-codestyle": "1.13.1",
     "tslint-immutable": "4.6.0",
-    "typescript": "2.9.1"
+    "typescript": "2.9.2"
   },
   "devDependencies": {
     "@ht2-labs/semantic-release": "1.0.42"
