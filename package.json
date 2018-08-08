@@ -18,7 +18,7 @@
     "typescript": "3.0.1"
   },
   "devDependencies": {
-    "@ht2-labs/semantic-release": "1.1.9"
+    "@ht2-labs/semantic-release": "1.1.10"
   },
   "publishConfig": {
     "access": "public"
