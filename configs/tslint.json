@@ -91,7 +91,7 @@
     "no-default-export": false,
     "no-mergeable-namespace": false,
     "no-require-imports": true,
-    "object-literal-sort-keys": true,
+    "object-literal-sort-keys": false,
     "prefer-const": true,
     "trailing-comma": [
       true,
