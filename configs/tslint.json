@@ -22,7 +22,9 @@
     "no-import-side-effect": true,
     "no-inferrable-types": true,
     "no-internal-module": true,
-    "no-magic-numbers": true,
+    "no-magic-numbers": {
+      "severity": "warning"
+    },
     "no-namespace": true,
     "no-non-null-assertion": true,
     "no-reference": true,
