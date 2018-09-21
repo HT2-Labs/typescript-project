@@ -7,7 +7,9 @@
     "no-unused": true,
     "early-exit": true,
     "readonly-keyword": true,
-    "readonly-array": false,
+    "readonly-array": {
+      "severity": "warning"
+    },
     "no-let": true,
     "no-this": true,
     "no-class": true,
