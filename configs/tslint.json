@@ -19,7 +19,9 @@
     "member-ordering": [
       false
     ],
-    "no-any": false,
+    "no-any": {
+      "severity": "warning"
+    },
     "no-empty-interface": true,
     "no-import-side-effect": true,
     "no-inferrable-types": true,
