@@ -21,7 +21,8 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "noUnusedParameters": true,
-    "noUnusedLocals": false
+    "noUnusedLocals": false,
+    "esModuleInterop": true
   },
   "includes": [
     "src/**/*"
