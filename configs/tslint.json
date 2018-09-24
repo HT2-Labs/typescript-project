@@ -76,7 +76,9 @@
     "no-string-throw": true,
     "no-switch-case-fall-through": false,
     "no-unbound-method": true,
-    "no-unsafe-any": false,
+    "no-unsafe-any": {
+      "severity": "warning"
+    },
     "no-unsafe-finally": true,
     "no-unused-expression": true,
     "no-use-before-declare": true,
