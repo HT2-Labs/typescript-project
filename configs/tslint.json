@@ -85,7 +85,9 @@
     "no-unused-expression": true,
     "no-use-before-declare": true,
     "no-var-keyword": true,
-    "no-void-expression": true,
+    "no-void-expression": {
+      "severity": "warning"
+    },
     "prefer-conditional-expression": true,
     "prefer-object-spread": true,
     "radix": true,
