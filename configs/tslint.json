@@ -55,9 +55,9 @@
     "no-arg": true,
     "no-bitwise": true,
     "no-conditional-assignment": true,
-    "no-console": [
-      true
-    ],
+    "no-console": {
+      "severity": "warning"
+    },
     "no-construct": false,
     "no-debugger": true,
     "no-duplicate-super": true,
