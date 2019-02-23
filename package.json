@@ -12,7 +12,7 @@
     "semantic-release": "ht2-release-public-circleci-lib"
   },
   "dependencies": {
-    "tslint": "5.12.1",
+    "tslint": "5.13.0",
     "tslint-consistent-codestyle": "1.15.0",
     "tslint-immutable": "4.9.1",
     "typescript": "3.3.3333"
