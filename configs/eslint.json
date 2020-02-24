@@ -1,0 +1,31 @@
+{
+  "env": {},
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "configs/tsconfig.json",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint",
+    "functional"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/@typescript-eslint",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:functional/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
+  "settings": {
+    "react": {
+      "version": "16"
+    }
+  },
+  "rules": {}
+}

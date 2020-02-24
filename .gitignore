@@ -1,5 +1,5 @@
 .DS_STORE
-/node_modules
-/notes.md
-/npm-debug.log
-/yarn.lock
+node_modules
+notes.md
+*.log
+yarn.lock
