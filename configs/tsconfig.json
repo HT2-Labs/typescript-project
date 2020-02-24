@@ -24,7 +24,7 @@
     "noUnusedLocals": false,
     "esModuleInterop": true
   },
-  "includes": [
+  "include": [
     "src/**/*"
   ],
   "exclude": [
