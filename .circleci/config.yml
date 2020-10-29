@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 machine:
   services:
     - docker
@@ -7,6 +7,9 @@ jobs:
   build:
     docker:
       - image: circleci/node:8@sha256:44c6136b6b55003fa12321aa1eb790a5a6482edb461227cb56daf488178d04dc
+        auth:
+          username: $DOCKERHUB_USERNAME
+          password: $DOCKERHUB_PASSWORD
     environment:
       - NPM_CONFIG_LOGLEVEL: warn
     working_directory: ~/repo
@@ -27,3 +30,10 @@ jobs:
       - deploy:
           name: Semantic Release
           command: npm run semantic-release
+
+workflows:
+  build:
+    jobs:
+      - build:
+          context:
+            - docker-hub-creds
