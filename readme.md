@@ -19,7 +19,7 @@
     "outDir": "dist",
     "typeRoots": ["./@types", "./node_modules/@types"],
   },
-  "includes": ["src/**/*"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist/**/*"]
 }
 ```
