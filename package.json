@@ -7,7 +7,7 @@
     "url": "https://github.com/HT2-Labs/typescript-project"
   },
   "author": "ht2-labs",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "scripts": {
     "semantic-release": "ht2-release-public-circleci-lib"
   },
