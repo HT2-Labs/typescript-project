@@ -1,6 +1,9 @@
-name: Semantic Release
+name: Release
 
-on: ['push']
+on:
+  push:
+    branches:
+      - master
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -15,14 +18,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-
       - uses: actions/setup-node@v3
         with:
           node-version: "12"
           cache: 'npm'
-
       - run: npm ci
-
       - run: npm run semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GITHUB_TOKEN }}
